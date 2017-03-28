@@ -21,6 +21,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             ContactFormComponent = (function () {
                 function ContactFormComponent() {
                 }
+                ContactFormComponent.prototype.onSubmit = function (form) {
+                    console.log(form);
+                };
                 ContactFormComponent.prototype.log = function (x) {
                     console.log(x);
                 };
